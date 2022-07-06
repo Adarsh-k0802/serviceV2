@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.img{
+  width: auto;
+}
+
+
+
+
+.navfull{
+  background: #FFFFFF !important;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-top: 0ch;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-bottom: 1px!important;
+  border-style: groove !important;
+  border-color: black !important;
+  font-weight: bold !important;
+
+  padding-left: 80px;
+}
+
+.brandnav{
+  margin-left: 50px;
+}
+.navbox{
+
+margin-left: 200px !important;
+
+}
+
+.navcomp{
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+/* Squote component css */
+
+.brand-name{
+  text-align: left;
+  font-size: 27px;
+}
+
+.btnbrand{
+  font-weight: bold;
+  color: white;
+  float: left;
+  width: 15ch;
+  animation : typing 2s steps(15), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  /* border-right: 3px solid; */
+ 
+  
+
+ 
+}
+@keyframes typing{
+  from {
+      width: 0
+  }
+}
+@keyframes blink{
+  50% {
+      border-color: transparent
+  }
+}
+
+.para{
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 18px;
+ line-height: 30px;
+  margin-top: 10px;
+}
+
+.img-fluid{
+ 
+  height: 30rem;
+  width: 30rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.img-fluid1{
+
+  height: 25rem;
+  width: 25rem;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  float: left;
+}
+
+img.animated {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+img.animated {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-15px); }
+}
+
+.btnQuote{
+  color:white!important ;
+  background-color:#2E73BC !important ;
+  
+}
+
+.backshadow{
+  position: absolute;
+  /* z-index: -1; */
+}
+
+#header{
+  overflow: hidden;
+}
+
+
+/* ends here */
+
+/* Footer CSS */
+
+
+li{
+  list-style: none;
+  margin: 0;
+  }
+  .footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: linear-gradient(180deg, #4B8CD0 0%, #1C63AE 105.92%);
+  margin: 0;
+  color:white;
+  padding: 0;
+  text-align: left;
+  
+  }
+  .footer1{
+  background: #1C63AE 100%;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  }
+  .footin{
+    margin-top: 4%;
+  }
+  .footicon{
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  .footp{
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .footin ul li a{
+    color: white;
+  }
+
+  .footin ul li{
+    margin-top: 10px;
+  }
+
+  .cardf{
+    margin-top: 30px;
+  }
+/* Footer ends here */
+
+/* service component css */
+
+.serpad{
+  margin-top: 80px;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+}
+.serpad1{
+  
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+}
+
+.headSer{
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000000;
+}
+
+.serPara{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  
+  color: #4A4A4A;
+}
+
+.knowMore{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #4A4A4A;
+
+}
+
+
+.carmar{
+  margin-top: 20px;
+  border-radius: 5%;
+
+}
+
+
+
+.isize{
+  color: #2E73BC !important;
+  
+ 
+  
+  font-size: 1rem !important;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  float: left;
+}
+
+
+.ititle{
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: left;
+
+color: #000000;
+
+}
+
+.pc1{
+  margin-bottom: 0.8rem;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+text-align: left;
+
+color: #4A4A4A;
+
+}
+
+.pc2{
+  margin-bottom: 3.2rem;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+text-align: left;
+
+color: #4A4A4A;
+}
+
+.Cbox1{
+ 
+width: 403px;
+height: auto;
+
+
+
+background: #FFFFFF;
+box-shadow: 0px 1px 16px 4px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+.Cbox2{
+ 
+  width: 403px;
+  height: auto;
+  
+  
+  
+  background: #FFFFFF;
+  box-shadow: 0px 1px 16px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+ 
+  }
+  .card2b{
+    margin-bottom: 9%;
+  }
+
+.bckcolor{
+  background: linear-gradient(180deg, #F0F8FF 0%, #FFFFFF 141.57%);
+}
+/* ends here */
+
+/* CSS FOR HELP */
+
+.img-help{
+ 
+  height: 25rem;
+  width: 25rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.tick{
+  margin-right: 10px;
+}
+
+.helpback{
+  background: linear-gradient(180deg, #F0F8FF 0%, #FFFFFF 141.57%);
+}
+
+.plagback{
+  background: #FBFDFF;
+}
+
+.generalback{
+  background: #FBFDFF;
+}
+.quoteback{
+  background: #FBFDFF;
+}
+
+.plagp{
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.padb{
+  padding-bottom: 5%;
+  overflow: hidden;
+}
